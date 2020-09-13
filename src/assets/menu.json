@@ -1,0 +1,381 @@
+[
+    {
+        "permissionId": "1297849829774344193",
+        "children": [
+            {
+                "permissionId": "1297856356170182658",
+                "children": [],
+                "name": "修改用户信息",
+                "url": "/api/user/modify",
+                "type": 2,
+                "pid": "1297849829774344193",
+                "description": "修改用户信息",
+                "createTime": "2020-08-24 19:20:43",
+                "updateTime": "2020-08-24 19:20:43"
+            },
+            {
+                "permissionId": "1297856521081827330",
+                "children": [],
+                "name": "修改用户状态",
+                "url": "/api/user/updateStatus",
+                "type": 2,
+                "pid": "1297849829774344193",
+                "description": "修改用户状态",
+                "createTime": "2020-08-24 19:21:22",
+                "updateTime": "2020-08-24 19:21:22"
+            },
+            {
+                "permissionId": "1297856646504099841",
+                "children": [],
+                "name": "查看用户列表",
+                "url": "/api/user/list",
+                "type": 2,
+                "pid": "1297849829774344193",
+                "description": "查看用户列表",
+                "createTime": "2020-08-24 19:21:52",
+                "updateTime": "2020-08-24 19:21:52"
+            }
+        ],
+        "name": "用户管理",
+        "url": "/user",
+        "icon": "el-icon-s-custom",
+        "type": 1,
+        "pid": "0",
+        "description": "管理用户",
+        "createTime": "2020-08-24 18:54:47",
+        "updateTime": "2020-08-24 21:16:25"
+    },
+    {
+        "permissionId": "1297849928814444546",
+        "children": [
+            {
+                "permissionId": "1297856981683515394",
+                "children": [],
+                "name": "查看员工列表",
+                "url": "/api/employee/list",
+                "type": 2,
+                "pid": "1297849928814444546",
+                "description": "查看员工列表",
+                "createTime": "2020-08-24 19:23:12",
+                "updateTime": "2020-08-24 19:23:12"
+            },
+            {
+                "permissionId": "1297857101829353474",
+                "children": [],
+                "name": "审核员工",
+                "url": "/api/employee/review",
+                "type": 2,
+                "pid": "1297849928814444546",
+                "description": "审核员工",
+                "createTime": "2020-08-24 19:23:41",
+                "updateTime": "2020-08-24 19:23:41"
+            },
+            {
+                "permissionId": "1297857209065123842",
+                "children": [],
+                "name": "修改员工",
+                "url": "/api/employee/modify",
+                "type": 2,
+                "pid": "1297849928814444546",
+                "description": "修改员工",
+                "createTime": "2020-08-24 19:24:06",
+                "updateTime": "2020-08-24 19:24:06"
+            }
+        ],
+        "name": "员工管理",
+        "url": "/employee",
+        "icon": "el-icon-user-solid",
+        "type": 1,
+        "pid": "0",
+        "description": "管理员工",
+        "createTime": "2020-08-24 18:55:11",
+        "updateTime": "2020-08-24 18:55:11"
+    },
+    {
+        "permissionId": "1297850060377178113",
+        "children": [
+            {
+                "permissionId": "1297857527010144257",
+                "children": [],
+                "name": "查看企业列表",
+                "url": "/api/company/list",
+                "type": 2,
+                "pid": "1297850060377178113",
+                "description": "查看企业列表",
+                "createTime": "2020-08-24 19:25:22",
+                "updateTime": "2020-08-24 19:25:22"
+            },
+            {
+                "permissionId": "1297857640705142786",
+                "children": [],
+                "name": "审核企业认证",
+                "url": "/api/company/certification",
+                "type": 2,
+                "pid": "1297850060377178113",
+                "description": "审核企业认证",
+                "createTime": "2020-08-24 19:25:49",
+                "updateTime": "2020-08-24 19:25:49"
+            },
+            {
+                "permissionId": "1297857732715589633",
+                "children": [],
+                "name": "修改企业信息",
+                "url": "/api/company/modify",
+                "type": 2,
+                "pid": "1297850060377178113",
+                "description": "修改企业信息",
+                "createTime": "2020-08-24 19:26:11",
+                "updateTime": "2020-08-24 19:26:11"
+            }
+        ],
+        "name": "公司管理",
+        "url": "/company",
+        "icon": "el-icon-s-home",
+        "type": 1,
+        "pid": "0",
+        "description": "管理公司",
+        "createTime": "2020-08-24 18:55:42",
+        "updateTime": "2020-08-24 18:55:42"
+    },
+    {
+        "permissionId": "1297850226425479170",
+        "children": [
+            {
+                "permissionId": "1297857849275297793",
+                "children": [],
+                "name": "查看职位列表",
+                "url": "/api/position/list",
+                "type": 2,
+                "pid": "1297850226425479170",
+                "description": "查看职位列表",
+                "createTime": "2020-08-24 19:26:39",
+                "updateTime": "2020-08-24 19:26:39"
+            },
+            {
+                "permissionId": "1297858002019266562",
+                "children": [],
+                "name": "删除职位信息",
+                "url": "/api/position/remove",
+                "type": 2,
+                "pid": "1297850226425479170",
+                "description": "删除职位信息",
+                "createTime": "2020-08-24 19:27:15",
+                "updateTime": "2020-08-24 19:27:15"
+            },
+            {
+                "permissionId": "1297858103584337921",
+                "children": [],
+                "name": "修改职位信息",
+                "url": "/api/position/modify",
+                "type": 2,
+                "pid": "1297850226425479170",
+                "description": "修改职位信息",
+                "createTime": "2020-08-24 19:27:40",
+                "updateTime": "2020-08-24 19:27:40"
+            }
+        ],
+        "name": "职位管理",
+        "url": "/position",
+        "icon": "el-icon-s-cooperation",
+        "type": 1,
+        "pid": "0",
+        "description": "管理职位",
+        "createTime": "2020-08-24 18:56:22",
+        "updateTime": "2020-08-24 18:56:22"
+    },
+    {
+        "permissionId": "1297850333883547650",
+        "children": [
+            {
+                "permissionId": "1297852538321649666",
+                "children": [
+                    {
+                        "permissionId": "1297886458945851394",
+                        "children": [],
+                        "name": "删除后台用户",
+                        "url": "/api/admin/remove",
+                        "type": 2,
+                        "pid": "1297852538321649666",
+                        "description": "删除后台用户",
+                        "createTime": "2020-08-24 21:20:20",
+                        "updateTime": "2020-08-24 21:20:20"
+                    },
+                    {
+                        "permissionId": "1297886631319162881",
+                        "children": [],
+                        "name": "修改后台用户信息",
+                        "url": "/api/admin/modify",
+                        "type": 2,
+                        "pid": "1297852538321649666",
+                        "description": "修改后台用户信息",
+                        "createTime": "2020-08-24 21:21:01",
+                        "updateTime": "2020-08-24 21:21:01"
+                    },
+                    {
+                        "permissionId": "1297886757882286081",
+                        "children": [],
+                        "name": "增加后台用户",
+                        "url": "/api/admin/add",
+                        "type": 2,
+                        "pid": "1297852538321649666",
+                        "description": "增加后台用户",
+                        "createTime": "2020-08-24 21:21:31",
+                        "updateTime": "2020-08-24 21:21:31"
+                    },
+                    {
+                        "permissionId": "1297887011889336321",
+                        "children": [],
+                        "name": "查询后台用户列表",
+                        "url": "/api/admin/list",
+                        "type": 2,
+                        "pid": "1297852538321649666",
+                        "description": "查询后台用户列表",
+                        "createTime": "2020-08-24 21:22:32",
+                        "updateTime": "2020-08-24 21:22:32"
+                    }
+                ],
+                "name": "后台用户管理",
+                "url": "admin",
+                "icon": "el-icon-chat-line-round",
+                "type": 1,
+                "pid": "1297850333883547650",
+                "description": "后台管理员资料管理",
+                "createTime": "2020-08-24 19:05:33",
+                "updateTime": "2020-08-25 16:21:24"
+            },
+            {
+                "permissionId": "1297852692760117250",
+                "children": [
+                    {
+                        "permissionId": "1297887731397021698",
+                        "children": [],
+                        "name": "查询角色列表",
+                        "url": "/api/role/list",
+                        "type": 2,
+                        "pid": "1297852692760117250",
+                        "description": "查询角色列表",
+                        "createTime": "2020-08-24 21:25:23",
+                        "updateTime": "2020-08-24 21:25:23"
+                    },
+                    {
+                        "permissionId": "1297887857389719554",
+                        "children": [],
+                        "name": "新增角色信息",
+                        "url": "/api/role/save",
+                        "type": 2,
+                        "pid": "1297852692760117250",
+                        "description": "新增角色信息",
+                        "createTime": "2020-08-24 21:25:53",
+                        "updateTime": "2020-08-24 21:25:53"
+                    },
+                    {
+                        "permissionId": "1297888018782343170",
+                        "children": [],
+                        "name": "修改角色信息",
+                        "url": "/api/role/modify",
+                        "type": 2,
+                        "pid": "1297852692760117250",
+                        "description": "修改角色信息",
+                        "createTime": "2020-08-24 21:26:32",
+                        "updateTime": "2020-08-24 21:26:32"
+                    },
+                    {
+                        "permissionId": "1297888119651160066",
+                        "children": [],
+                        "name": "删除角色信息",
+                        "url": "/api/role/remove",
+                        "type": 2,
+                        "pid": "1297852692760117250",
+                        "description": "删除角色信息",
+                        "createTime": "2020-08-24 21:26:56",
+                        "updateTime": "2020-08-24 21:26:56"
+                    },
+                    {
+                        "permissionId": "1297888251281002497",
+                        "children": [],
+                        "name": "修改角色权限",
+                        "url": "/api/role/addPermission",
+                        "type": 2,
+                        "pid": "1297852692760117250",
+                        "description": "修改角色权限",
+                        "createTime": "2020-08-24 21:27:27",
+                        "updateTime": "2020-08-24 21:27:27"
+                    }
+                ],
+                "name": "角色管理",
+                "url": "role",
+                "icon": "el-icon-s-help",
+                "type": 1,
+                "pid": "1297850333883547650",
+                "description": "角色用户管理",
+                "createTime": "2020-08-24 19:06:10",
+                "updateTime": "2020-08-24 19:06:10"
+            },
+            {
+                "permissionId": "1297852812171952129",
+                "children": [
+                    {
+                        "permissionId": "1297888489081262082",
+                        "children": [],
+                        "name": "查询权限列表",
+                        "url": "/api/permission/tree",
+                        "type": 2,
+                        "pid": "1297852812171952129",
+                        "description": "查询权限列表",
+                        "createTime": "2020-08-24 21:28:24",
+                        "updateTime": "2020-08-24 21:28:24"
+                    },
+                    {
+                        "permissionId": "1297888599873802242",
+                        "children": [],
+                        "name": "增加权限信息",
+                        "url": "/api/permission/save",
+                        "type": 2,
+                        "pid": "1297852812171952129",
+                        "description": "增加权限信息",
+                        "createTime": "2020-08-24 21:28:50",
+                        "updateTime": "2020-08-24 21:28:50"
+                    },
+                    {
+                        "permissionId": "1297888777775206401",
+                        "children": [],
+                        "name": "删除权限信息",
+                        "url": "/api/permission/remove",
+                        "type": 2,
+                        "pid": "1297852812171952129",
+                        "description": "删除权限信息",
+                        "createTime": "2020-08-24 21:29:33",
+                        "updateTime": "2020-08-24 21:29:33"
+                    },
+                    {
+                        "permissionId": "1297888935439093761",
+                        "children": [],
+                        "name": "修改权限信息",
+                        "url": "/api/permission/modify",
+                        "type": 2,
+                        "pid": "1297852812171952129",
+                        "description": "修改权限信息",
+                        "createTime": "2020-08-24 21:30:10",
+                        "updateTime": "2020-08-24 21:30:10"
+                    }
+                ],
+                "name": "资源权限管理",
+                "url": "permission",
+                "icon": "el-icon-s-opportunity",
+                "type": 1,
+                "pid": "1297850333883547650",
+                "description": "权限管理",
+                "createTime": "2020-08-24 19:06:38",
+                "updateTime": "2020-08-24 19:06:38"
+            }
+        ],
+        "name": "设置",
+        "url": "/setting",
+        "icon": "el-icon-setting",
+        "type": 0,
+        "pid": "0",
+        "description": "后台管理",
+        "createTime": "2020-08-24 18:56:47",
+        "updateTime": "2020-08-24 18:56:47"
+    }
+]
